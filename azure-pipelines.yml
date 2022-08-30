@@ -20,6 +20,6 @@ steps:
     location: 'West US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/hila-m/armSamples/main/azuredeploy.json'
-    overrideParameters: '-projectName armtutorial -resourceTags Dev"'
+    overrideParameters: '-storageAccountName storage"'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
