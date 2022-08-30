@@ -19,7 +19,6 @@ steps:
     resourceGroupName: 'h-armTutorial'
     location: 'West US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/hila-m/armSamples/main/azuredeploy.json?token=GHSAT0AAAAAABU4JZ557A3P2BNZKPOT77NGYYNXPMQ'
-    overrideParameters: '-projectName armSamples'
+    csmFileLink: 'https://raw.githubusercontent.com/hila-m/armSamples/main/azuredeploy.json?token=GHSAT0AAAAAABU4JZ557A3P2BNZKPOT77NGYYNXPMQ'    overrideParameters: '-projectName armSamples'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
