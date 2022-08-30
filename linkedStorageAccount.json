@@ -29,6 +29,13 @@
       ],
       "metadata": {
         "description": "Specify the storage account type."
+      },
+      "resourceTags": {
+        "type": "object",
+        "defaultValue": {
+          "Environment": "Dev",
+          "Project": "Tutorial"
+        }
       }
     }
   },
@@ -38,6 +45,7 @@
       "apiVersion": "2021-04-01",
       "name": "[parameters('storageAccountName')]",
       "location": "[parameters('location')]",
+      "tags": "[parameters('resourceTags')]",
       "sku": {
         "name": "[parameters('storageSKU')]"
       },
